@@ -1,0 +1,61 @@
+Pathway_ID,Pathway,Comparison,N_genes_in_pathway,N_genes_mapped,Mean_LFC,N_sig_genes
+sly04075,Plant hormone signal transduction,Leaf: Blue vs Red,437,231,0.024231341211775677,86
+sly04075,Plant hormone signal transduction,Leaf: Light×Flight,437,231,-0.12853215740562762,97
+sly04075,Plant hormone signal transduction,Root: Blue vs Red,437,233,0.018579310002363965,8
+sly04075,Plant hormone signal transduction,Root: Light×Flight,437,233,-0.00031953588166524734,0
+sly04075,Plant hormone signal transduction,Combined: Blue vs Red,437,220,0.0812901014137553,34
+sly04075,Plant hormone signal transduction,Combined: Light×Flight,437,220,-0.07334979445156878,32
+sly04016,MAPK signaling pathway - plant,Leaf: Blue vs Red,193,112,-0.01861710028022009,41
+sly04016,MAPK signaling pathway - plant,Leaf: Light×Flight,193,112,-0.06230137723465545,54
+sly04016,MAPK signaling pathway - plant,Root: Blue vs Red,193,113,0.0420639248961187,5
+sly04016,MAPK signaling pathway - plant,Root: Light×Flight,193,113,0.0038160008487051512,0
+sly04016,MAPK signaling pathway - plant,Combined: Blue vs Red,193,110,0.08431297352876099,21
+sly04016,MAPK signaling pathway - plant,Combined: Light×Flight,193,110,-0.004385338201230514,20
+sly04712,Circadian rhythm - plant,Leaf: Blue vs Red,47,32,-0.047566214181439456,18
+sly04712,Circadian rhythm - plant,Leaf: Light×Flight,47,32,-0.008313829517651028,17
+sly04712,Circadian rhythm - plant,Root: Blue vs Red,47,31,0.0049026016173298785,0
+sly04712,Circadian rhythm - plant,Root: Light×Flight,47,31,-0.00036915465232832814,0
+sly04712,Circadian rhythm - plant,Combined: Blue vs Red,47,31,0.12528987023053625,10
+sly04712,Circadian rhythm - plant,Combined: Light×Flight,47,31,-0.15316593303113116,9
+sly00940,Phenylpropanoid biosynthesis,Leaf: Blue vs Red,179,70,-0.30779859689019406,35
+sly00940,Phenylpropanoid biosynthesis,Leaf: Light×Flight,179,70,0.6465791281605202,30
+sly00940,Phenylpropanoid biosynthesis,Root: Blue vs Red,179,91,0.21725915520072386,6
+sly00940,Phenylpropanoid biosynthesis,Root: Light×Flight,179,91,0.03982658978299372,3
+sly00940,Phenylpropanoid biosynthesis,Combined: Blue vs Red,179,67,-0.17785864952764965,11
+sly00940,Phenylpropanoid biosynthesis,Combined: Light×Flight,179,67,0.44531325743312755,25
+sly00941,Flavonoid biosynthesis,Leaf: Blue vs Red,37,22,0.03295228094571568,12
+sly00941,Flavonoid biosynthesis,Leaf: Light×Flight,37,22,0.49171256032499716,13
+sly00941,Flavonoid biosynthesis,Root: Blue vs Red,37,22,0.01380863678511554,0
+sly00941,Flavonoid biosynthesis,Root: Light×Flight,37,22,0.002593036905219287,0
+sly00941,Flavonoid biosynthesis,Combined: Blue vs Red,37,22,-0.069776293779301,3
+sly00941,Flavonoid biosynthesis,Combined: Light×Flight,37,22,0.30096880054963465,9
+sly00710,Carbon fixation by Calvin cycle,Leaf: Blue vs Red,82,56,0.3319732624926591,21
+sly00710,Carbon fixation by Calvin cycle,Leaf: Light×Flight,82,56,-0.24315550942273667,15
+sly00710,Carbon fixation by Calvin cycle,Root: Blue vs Red,82,56,0.009446378183366563,0
+sly00710,Carbon fixation by Calvin cycle,Root: Light×Flight,82,56,-0.0003870115509438239,0
+sly00710,Carbon fixation by Calvin cycle,Combined: Blue vs Red,82,55,0.1884979186371577,8
+sly00710,Carbon fixation by Calvin cycle,Combined: Light×Flight,82,55,-0.09219140419109201,3
+sly00195,Photosynthesis,Leaf: Blue vs Red,83,34,-0.26953949893552887,14
+sly00195,Photosynthesis,Leaf: Light×Flight,83,34,0.28869410696730885,13
+sly00195,Photosynthesis,Root: Blue vs Red,83,35,0.0214649583367401,0
+sly00195,Photosynthesis,Root: Light×Flight,83,35,-0.0018220031254526131,0
+sly00195,Photosynthesis,Combined: Blue vs Red,83,34,0.04020361393183767,3
+sly00195,Photosynthesis,Combined: Light×Flight,83,34,0.08529310848953102,0
+sly00196,Photosynthesis - antenna proteins,Leaf: Blue vs Red,29,15,-1.9654616109011438,13
+sly00196,Photosynthesis - antenna proteins,Leaf: Light×Flight,29,15,1.5449982262226392,11
+sly00196,Photosynthesis - antenna proteins,Root: Blue vs Red,29,15,0.07292576227596757,0
+sly00196,Photosynthesis - antenna proteins,Root: Light×Flight,29,15,0.0033889491749960533,0
+sly00196,Photosynthesis - antenna proteins,Combined: Blue vs Red,29,15,-0.52352162160532,6
+sly00196,Photosynthesis - antenna proteins,Combined: Light×Flight,29,15,0.6284402529015094,7
+sly04141,Protein processing in ER,Leaf: Blue vs Red,219,148,0.008556535907132165,34
+sly04141,Protein processing in ER,Leaf: Light×Flight,219,148,-0.23048316147252157,46
+sly04141,Protein processing in ER,Root: Blue vs Red,219,145,-0.014480180658770669,2
+sly04141,Protein processing in ER,Root: Light×Flight,219,145,-0.0023088221645664172,0
+sly04141,Protein processing in ER,Combined: Blue vs Red,219,145,-0.006207403383009417,9
+sly04141,Protein processing in ER,Combined: Light×Flight,219,145,-0.12316666680894423,16
+sly00860,Porphyrin metabolism,Leaf: Blue vs Red,52,45,-0.6614612457056956,22
+sly00860,Porphyrin metabolism,Leaf: Light×Flight,52,45,0.6754491837961719,22
+sly00860,Porphyrin metabolism,Root: Blue vs Red,52,44,0.005489190501366475,0
+sly00860,Porphyrin metabolism,Root: Light×Flight,52,44,-0.00021140472623992776,0
+sly00860,Porphyrin metabolism,Combined: Blue vs Red,52,44,-0.1421022649979705,5
+sly00860,Porphyrin metabolism,Combined: Light×Flight,52,44,0.1339093821453715,4
