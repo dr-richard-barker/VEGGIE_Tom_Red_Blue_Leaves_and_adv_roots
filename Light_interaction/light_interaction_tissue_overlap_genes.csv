@@ -1,0 +1,5 @@
+"Comparison","N_set1","N_set2","N_shared","N_only_set1","N_only_set2","Pct_shared_of_union","Pct_shared_of_set1","Pct_shared_of_set2"
+"Leaf_light_up vs Root_light_up",1011,289,37,974,252,2.9,3.7,12.8
+"Leaf_light_down vs Root_light_down",1303,446,28,1275,418,1.6,2.1,6.3
+"Leaf_int_pos vs Root_int_pos",2502,32,1,2501,31,0,0,3.1
+"Leaf_int_neg vs Root_int_neg",2540,12,2,2538,10,0.1,0.1,16.7
