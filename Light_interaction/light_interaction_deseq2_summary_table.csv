@@ -1,0 +1,11 @@
+"Model","Effect","N_total_genes","N_sig_strict","N_sig_relaxed","N_up","N_down"
+"Leaf (interaction)","Light (Blue vs Red)",20157,2314,"",1011,1303
+"Leaf (interaction)","Condition (Flight vs Ground)",20157,527,"",277,250
+"Leaf (interaction)","Light×Condition",20157,2894,"5042",2502,2540
+"Root (interaction)","Light (Blue vs Red)",21158,256,"",105,151
+"Root (interaction)","Condition (Flight vs Ground)",21158,704,"",628,76
+"Root (interaction)","Light×Condition",21158,15,"44",32,12
+"Root (additive fallback)","Light (Blue vs Red)",21158,735,"",289,446
+"Combined","Light (Blue vs Red)",19529,460,"",302,158
+"Combined","Condition (Flight vs Ground)",19529,322,"",227,95
+"Combined","Light×Condition",19529,845,"1900",725,1175
