@@ -158,8 +158,8 @@ in-analysis reports.
 - [x] Repository reorganization + this README.
 
 ### In progress / to do
-- [x] **Manuscript** — Abstract Results/Conclusions and full Results + Discussion drafted from the analysis numbers (in the `.md`). See [`manuscript/`](manuscript/).
-- [ ] **Manuscript finishing** — sync the drafted text into the `.docx`, insert/renumber final figures, and have co-authors review.
+- [x] **Manuscript** — Abstract Results/Conclusions and full Results + Discussion drafted from the analysis numbers; `.docx` regenerated from the `.md`; an npj Microgravity–style LaTeX version (`manuscript/manuscript_npj.tex`) with six high-resolution multi-panel figures and legends added. See [`manuscript/`](manuscript/) and [`manuscript/BUILD.md`](manuscript/BUILD.md).
+- [ ] **Manuscript finishing** — compile the LaTeX (needs a TeX distribution; not available in this environment), complete author/affiliation block, and have co-authors review.
 - [ ] **Root replication caveat** — foreground the 3-replicate root ground-control limitation wherever root interaction results are discussed.
 - [ ] **ID-mapping coverage** — Solyc→Entrez mapping was 60–75% across gene sets; recover unmapped genes (orthology / updated ITAG4.0 mapping) to reduce enrichment blind spots.
 - [ ] **Direct reproduction of the paper's contrasts** — optionally re-run with the paper's exact thresholds (FDR ≤ 0.1, \|logFC\| ≥ 2, within-light contrasts) to produce a like-for-like overlap/Venn against Dixit *et al.*
