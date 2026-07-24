@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home · VEGGIE Red/Blue Tomato</title>
+<meta name="description" content="Transcriptomic profiling of dwarf tomato (cv. Red Robin) in spaceflight — main effects of microgravity under red/blue light covariates, across leaf and adventitious root (OSD-767). FAIR data and code.">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header class="site"><nav>
+  <span class="brand">🍅 VEGGIE Red/Blue Tomato</span>
+  <a href="#abstract" style="color:var(--accent)">Abstract</a>
+  <a href="#highlights">Highlights</a>
+  <a href="#figures">Figures</a>
+  <a href="#data">Data &amp; code</a>
+  <a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots">GitHub ↗</a>
+</nav></header>
+<main>
+<section class="hero">
+  <h1>Dwarf tomato in spaceflight: the main effects of microgravity under red/blue light</h1>
+  <p class="lede">Transcriptomic profiling of <em>Solanum lycopersicum</em> cv. Red Robin from the
+     ISS VEG-05 experiment (OSD-767), modelling red vs blue light as a covariate to isolate the
+     core spaceflight response across leaf and adventitious-root tissues.</p>
+  <div class="badges">
+    <span class="badge">CC0-1.0</span><span class="badge">FAIR</span>
+    <span class="badge">NASA OSDR · OSD-767</span><span class="badge">RNA-seq</span>
+    <span class="badge">GeneLab pipeline</span><span class="badge">SL3.0 genome</span>
+  </div>
+  <div class="btnrow">
+    <a class="btn primary" href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/tree/main/manuscript">Read the manuscript →</a>
+    <a class="btn" href="#figures">Figures</a>
+    <a class="btn" href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/tree/main/analysis">Analysis code</a>
+    <a class="btn" href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots">Code &amp; data (GitHub)</a>
+  </div>
+  <p class="lede"><b>Headline:</b> spaceflight remodels both organs — <b>2,132 leaf</b> and
+  <b>2,582 adventitious-root DEGs</b> — with the root response larger, up-regulation-biased, and
+  dominated by <b>oxidative-stress management and phenylpropanoid/flavonoid metabolism</b>,
+  localising to ground-tissue and vascular cell types.</p>
+</section>
+
+<h2 id="abstract">Abstract</h2>
+<div class="content"><p><b>Background:</b> Cultivating nutrient-dense crops in microgravity is a
+critical requirement for long-duration human space exploration. The VEG-05 experiment studied
+dwarf tomato (<em>Solanum lycopersicum</em> cv. Red Robin) aboard the ISS under varying light
+spectra, but the underlying molecular adaptations remained incompletely understood.
+<b>Methods:</b> We performed RNA-seq analysis of NASA OSDR data (<b>OSD-767</b>), evaluating
+differential expression in leaf (n=21) and adventitious-root (n=15) tissues between spaceflight
+and ground controls, with red/blue light modelled as covariates (adapted GeneLab RNAseq
+Consensus Pipeline; <em>S. lycopersicum</em> SL3.0 reference). <b>Results:</b> Spaceflight produced
+a pervasive response in both organs — <b>leaf 2,132 DEGs</b> (1,032 up / 1,100 down) and
+<b>adventitious root 2,582</b> (1,706 up / 876 down), roots larger and more up-regulated.
+Functional enrichment converged on oxidative-stress management and specialised metabolism: root
+up-regulated genes were dominated by "response to oxidative stress" (GO BP FDR ≈ 6.5×10⁻¹³),
+hydrogen-peroxide catabolism, ethylene signalling, and KEGG phenylpropanoid (FDR ≈ 4×10⁻³⁰),
+flavonoid and stilbenoid biosynthesis with glutathione metabolism; leaf up-regulated genes for
+heme/iron binding, monooxygenase activity, phenylpropanoid/flavonoid biosynthesis, MAPK and
+hormone signalling. Circadian-rhythm genes were down in both organs; roots also suppressed
+Calvin-cycle carbon fixation and starch/sucrose metabolism. Root DEGs localised to cortex,
+exodermis, endodermis, meristematic cortex and vascular (xylem) cell types (odds ratios ≈
+2.7–4.4). <b>Conclusions:</b> Spaceflight imposes a coordinated stress signature — antioxidant and
+phenylpropanoid/flavonoid metabolism, hormone signalling and circadian dysregulation —
+quantitatively strongest in adventitious roots, identifying targets for engineering resilient
+crops for bioregenerative life support.</p><hr /></div>
+
+<h2 id="highlights">Highlights</h2>
+<div class="cards">
+  <div class="card"><h3>Both organs remodelled</h3>
+    <p><span class="k">2,132</span> leaf and <span class="k">2,582</span> adventitious-root DEGs; the root response is larger and up-regulation-biased.</p></div>
+  <div class="card"><h3>Antioxidant + specialised metabolism</h3>
+    <p>Root up: oxidative-stress response (FDR ≈ 6.5×10⁻¹³), phenylpropanoid (FDR ≈ 4×10⁻³⁰), flavonoid &amp; glutathione metabolism.</p></div>
+  <div class="card"><h3>Circadian suppression</h3>
+    <p>Circadian-rhythm genes down in both organs; roots also suppress Calvin-cycle carbon fixation and starch/sucrose metabolism.</p></div>
+  <div class="card"><h3>Cell-type localisation</h3>
+    <p>Root DEGs localise to cortex, exodermis, endodermis and vascular (xylem) cell types (<span class="k">OR ≈ 2.7–4.4</span>).</p></div>
+</div>
+
+<h2 id="figures">Selected figures</h2>
+<div class="gallery">
+  <figure><a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/tree/main/manuscript/figures"><img src="assets/figures/fig1c_root_pca.png" alt="Root sample PCA ordination separating spaceflight from ground control."></a><figcaption>Fig 1c — Root sample ordination (PCA): spaceflight vs ground control.</figcaption></figure>
+  <figure><a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/tree/main/manuscript/figures"><img src="assets/figures/fig3a_root_volcano.png" alt="Root differential-expression volcano plot."></a><figcaption>Fig 3a — Adventitious-root differential expression (volcano): a large, up-biased response.</figcaption></figure>
+  <figure><a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/tree/main/manuscript/figures"><img src="assets/figures/fig6a_root_celltype_heat.png" alt="Root DEG enrichment across cell-type marker sets."></a><figcaption>Fig 6a — Root DEGs enriched in ground-tissue and vascular cell-type marker sets.</figcaption></figure>
+</div>
+
+<h2 id="data">Data &amp; code</h2>
+<div class="content"><ul>
+  <li><b>Manuscript:</b> <a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/tree/main/manuscript"><code>manuscript/</code></a>
+      (Markdown, <code>.docx</code>, and an npj-styled <code>manuscript_npj.tex</code>)</li>
+  <li><b>Analysis code:</b> <a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/tree/main/analysis"><code>analysis/</code></a>
+      (DE, enrichment, cell-type projection, light-interaction pathways)</li>
+  <li><b>Results:</b> <a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/tree/main/results"><code>results/</code></a>
+      (enrichment tables, KEGG/SBGN light-interaction pathway maps)</li>
+  <li><b>Figures:</b> <a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/tree/main/manuscript/figures"><code>manuscript/figures/</code></a> (Fig 1–6)</li>
+</ul>
+<p class="note">Sequencing data from NASA OSDR (OSD-767); cite the accession. OSDR data remain
+subject to the NASA Open Data policy.</p></div>
+</main>
+<footer class="site">
+  VEGGIE Red/Blue Tomato — dwarf-tomato spaceflight transcriptomics (OSD-767) · FAIR data &amp; code ·
+  <a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots">GitHub</a>
+</footer></body></html>
