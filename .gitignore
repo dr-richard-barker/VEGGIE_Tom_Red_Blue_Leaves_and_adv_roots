@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+
+# transient outputs (keep committed results in results/)
+/tmp/
+*.log

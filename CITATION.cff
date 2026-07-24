@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this dataset/analysis, please cite it as below."
+title: "VEGGIE Tomato (VEG-05 / OSD-767): Spaceflight Transcriptomics of Solanum lycopersicum cv. 'Red Robin' — leaf and adventitious root re-analysis"
+abstract: >-
+  Independent bulk RNA-seq re-analysis of the NASA VEG-05 experiment (OSD-767 /
+  GLDS-709), in which dwarf tomato (Solanum lycopersicum cv. 'Red Robin') was
+  grown aboard the ISS under red- and blue-rich light versus ground controls.
+  Includes DESeq2 differential expression (leaf and adventitious root), GO/KEGG
+  functional enrichment, published-marker cell-type cross-reference,
+  light x spaceflight interaction models, KEGG pathway overlays, a draft
+  manuscript, and a comparison against the original publication (Dixit et al. 2026).
+type: dataset
+authors:
+  - family-names: Barker
+    given-names: Richard
+    alias: dr-richard-barker
+keywords:
+  - spaceflight
+  - microgravity
+  - tomato
+  - Solanum lycopersicum
+  - VEG-05
+  - adventitious root
+  - RNA-seq
+  - DESeq2
+  - oxidative stress
+  - light quality
+  - GeneLab
+  - OSDR
+license: CC0-1.0
+repository-code: "https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots"
+references:
+  - type: article
+    title: "Stress and light spectral quality influence the transcriptome of a tomato crop on the International Space Station"
+    authors:
+      - family-names: Dixit
+        given-names: Anirudha R.
+      - name: "et al."
+    journal: "BMC Plant Biology"
+    year: 2026
+    volume: "26"
+    doi: "10.1186/s12870-025-07621-4"
+  - type: data
+    title: "OSD-767 / GLDS-709 (VEG-05), NASA Open Science Data Repository"
+    url: "https://osdr.nasa.gov/bio/repo/data/studies/OSD-767"
