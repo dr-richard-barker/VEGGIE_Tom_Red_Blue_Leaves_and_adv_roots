@@ -4,7 +4,18 @@
 <title>Home · VEGGIE Red/Blue Tomato</title>
 <meta name="description" content="Transcriptomic profiling of dwarf tomato (cv. Red Robin) in spaceflight — main effects of microgravity under red/blue light covariates, across leaf and adventitious root (OSD-767). FAIR data and code.">
 <link rel="stylesheet" href="assets/style.css">
-</head><body>
+<!-- CoSE Theme & DeepSpaceAg Hub Integration -->
+<link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-theme.css" />
+<link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-chrome.css" />
+<link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-map.css" />
+<style>
+  /* Layering CoSE rails above page components */
+  .topbar.cose-dark, .topbar.cose-light { z-index: 10001 !important; }
+  .sitebar.cose-dark, .sitebar.cose-light { z-index: 10000 !important; }
+  .map-scrim { z-index: 9999 !important; }
+</style>
+</head>
+<body data-site-id="VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots" data-brand-logo="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-logo.png">
 <header class="site"><nav>
   <span class="brand">🍅 VEGGIE Red/Blue Tomato</span>
   <a href="#abstract" style="color:var(--accent)">Abstract</a>
@@ -95,4 +106,8 @@ subject to the NASA Open Data policy.</p></div>
 <footer class="site">
   VEGGIE Red/Blue Tomato — dwarf-tomato spaceflight transcriptomics (OSD-767) · FAIR data &amp; code ·
   <a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots">GitHub</a>
-</footer></body></html>
+</footer>
+<!-- CoSE Theme Integration Scripts -->
+<script src="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/sites.js"></script>
+<script src="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/theme.js"></script>
+</body></html>
